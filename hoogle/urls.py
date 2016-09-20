@@ -19,5 +19,5 @@ from hoogleApp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'test/', views.Test.as_view())
+    url(r'ˆtest/', views.Test.as_view())
 ]
